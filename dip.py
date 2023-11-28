@@ -174,6 +174,7 @@ import cv2
 image = cv2.imread("/content/drive/MyDrive/modi.jpg")
 
 # Apply Gaussian Blur
+
 blurred_image = cv2.GaussianBlur(image, (5, 5), 0)
 
 # Median filter
